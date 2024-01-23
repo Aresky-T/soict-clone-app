@@ -1,0 +1,183 @@
+.main-header {
+  max-width: 100%;
+  width: 100%;
+  z-index: 30;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 0;
+  transition: background-color 0.3s, opacity 0.3s;
+
+  .main-header__top {
+    z-index: 10;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+
+  .main-header__bottom {
+    background-color: var(--primary-color);
+    min-height: 50px;
+    height: 50px;
+    border-top: 5px solid #efb419;
+    z-index: 9;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .nav {
+        width: fit-content;
+        position: relative;
+        display: inline-block;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        column-gap: 26px;
+  
+        ul > li {
+          list-style: none;
+        }
+  
+        .nav-item {
+          display: inline-block;
+          list-style: none;
+          padding: 0;
+          position: relative;
+          -webkit-transition: background-color 0.3s;
+          -o-transition: background-color 0.3s;
+          transition: background-color 0.3s;
+  
+          .sub-menu {
+            position: absolute;
+            left: -99999px;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+            min-width: 260px;
+            max-height: 0;
+            z-index: 9;
+            padding: 20px 0 20px;
+            opacity: 0;
+            margin: 0;
+            -webkit-transition: opacity 0.25s;
+            -o-transition: opacity 0.25s;
+            transition: opacity 0.25s;
+            color: #777;
+            background-color: #fff;
+            text-align: left;
+            display: table;
+  
+            &-item {
+              width: 100%;
+  
+              a {
+                color: #666666d9;
+                transition: all 0.2s linear;
+                padding: 10px 20px;
+                line-height: 1.3;
+                width: 100%;
+                font-size: 0.9rem;
+                font-weight: 400;
+  
+                &:hover {
+                  background-color: #f7f7f7;
+                  color: #333333;
+                }
+              }
+            }
+  
+            &.active {
+              left: 0;
+              opacity: 1;
+            }
+  
+            &::before {
+              content: "";
+              height: 0;
+              width: 0;
+              position: absolute;
+              top: -5px;
+              left: 35px;
+              opacity: 1;
+              border-left: 11px solid transparent;
+              border-right: 11px solid transparent;
+              border-bottom: 11px solid #fff;
+              pointer-events: none;
+            }
+          }
+  
+          a {
+            line-height: 1rem;
+            font-size: 1rem;
+            font-weight: 300;
+            transition: all 0.2s;
+            padding: 12px 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            align-items: center;
+            text-decoration: none;
+            text-transform: none;
+            touch-action: manipulation;
+            background-color: transparent;
+            color: #ffffffcc;
+            cursor: pointer;
+  
+            &.active {
+              color: #fff;
+            }
+  
+            span {
+              display: inline-flex;
+              -webkit-box-align: center;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-container {
+    display: none;
+    min-height: 50px;
+    height: 50px;
+    z-index: 9;
+  }
+}
+
+
+@media screen and (max-width: 1174px) {
+  .main-header {
+    .main-header__bottom {
+      display: none;
+    }
+
+    .sidebar-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

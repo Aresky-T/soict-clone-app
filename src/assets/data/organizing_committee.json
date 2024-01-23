@@ -1,0 +1,423 @@
+[
+  {
+    "type": "Honorary Chairs",
+    "chairs": [
+      {
+        "name": "Huynh Quyet Thang",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5197-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Mourad Baiou",
+        "image": "https://soict.org/wp-content/uploads/2022/10/Mobaiou-6-scaled.jpeg",
+        "affiliation": "CNRS, LIMOS lab, France"
+      },
+      {
+        "name": "LE MINH HA",
+        "image": "https://soict.org/wp-content/uploads/2022/04/LeMinhHa.jpg",
+        "affiliation": "VIASM, Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "General Chairs",
+    "chairs": [
+      {
+        "name": "Cathal Gurrin",
+        "image": "https://soict.org/wp-content/uploads/2023/05/1586040134590.jpeg",
+        "affiliation": "Dublin City University, Ireland",
+        "website": "https://www.cs.is.i.nagoya-u.ac.jp/people/ichiro-ide/"
+      },
+      {
+        "name": "Ho Tu Bao",
+        "image": "https://soict.org/wp-content/uploads/2021/05/gs-ho-tu-bao.jpg",
+        "affiliation": "Vietnam Institute for Advanced Study in Mathematics, Vietnam"
+      },
+      {
+        "name": "Ta Hai Tung",
+        "image": "https://soict.org/wp-content/uploads/2021/05/ta_hai_tung_vt_soict-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "Program Chairs",
+    "chairs": [
+      {
+        "name": "Ichiro IDE",
+        "image": "https://soict.org/wp-content/uploads/2021/05/avatar.jpg",
+        "affiliation": "Nagoya University, Japan",
+        "website": "https://www.cs.is.i.nagoya-u.ac.jp/people/ichiro-ide/"
+      },
+      {
+        "name": "WRAY Buntine",
+        "image": "https://soict.org/wp-content/uploads/2023/04/Wray-Buntine-Profile-540x400-1.jpg",
+        "affiliation": "VinUniversity, Vietnam",
+        "website": "https://vinuni.edu.vn/people/wray-buntine-phd/"
+      },
+      {
+        "name": "Huynh Thi Thanh Binh",
+        "image": "https://soict.org/wp-content/uploads/2021/05/huynh-thi-thanh-binh-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "TRAN MINH TRIET",
+        "image": "https://soict.org/wp-content/uploads/2021/05/img_0256.jpg",
+        "affiliation": "University of Science, VNUHCM, Vietnam",
+        "website": "https://www.fit.hcmus.edu.vn/~tmtriet/"
+      }
+    ]
+  },
+  {
+    "type": "Track Chairs",
+    "children": [
+      {
+        "type": "Networking and Communication Technologies",
+        "chairs": [
+          {
+            "name": "Won-Joo Hwang",
+            "image": "https://soict.org/wp-content/uploads/2023/05/342004850_1254914168528777_7297413676258893684_n-2-removebg-preview.jpg",
+            "affiliation": "Pusan National University, South Korea"
+          },
+          {
+            "name": "Pham Quoc Viet",
+            "image": "https://soict.org/wp-content/uploads/2022/03/PHAM-QUOC-VIET-1.png",
+            "affiliation": "The University of Dublin, Ireland",
+            "website": "https://www.researchgate.net/profile/Quoc-Viet-Pham"
+          },
+          {
+            "name": "Kien Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2021/05/kien.jpeg",
+            "affiliation": "Chiba University, Japan",
+            "website": "https://www.s-lab.nd.chiba-u.jp/nguyen/"
+          },
+          {
+            "name": "Trinh Van Chien",
+            "image": "https://soict.org/wp-content/uploads/2023/04/Xnip2023-04-10_16-38-09-1.png",
+            "affiliation": "Hanoi University of Science and Technology, Vietnam"
+          }
+        ]
+      },
+      {
+        "type": "AI Foundations and Big Data",
+        "chairs": [
+          {
+            "name": "Chun-Hao Chen",
+            "image": "https://soict.org/wp-content/uploads/2023/05/citations-6-removebg-preview.jpg",
+            "affiliation": "National Kaohsiung University of Science, Taiwan"
+          },
+          {
+            "name": "Yasufumi Takama",
+            "image": "https://soict.org/wp-content/uploads/2023/05/takama_2023.jpg",
+            "affiliation": "Tokyo Metropolitan University, Japan"
+          },
+          {
+            "name": "Jingfeng Zhang",
+            "image": "https://soict.org/wp-content/uploads/2023/04/jzhangv.jpg-1.png",
+            "affiliation": "University of Auckland, New Zealand"
+          },
+          {
+            "name": "Le Hoai Bac",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Le-Hoai-Bac-1.jpg",
+            "affiliation": "University of Science, VNUHCM, Vietnam"
+          }
+        ]
+      },
+      {
+        "type": "Multimedia Processing",
+        "chairs": [
+          {
+            "name": "NGUYEN VAN TAM",
+            "image": "https://soict.org/wp-content/uploads/2023/04/citations-3.jpeg",
+            "affiliation": "University of Dayton, United States"
+          },
+          {
+            "name": "Honjo KIm",
+            "image": "https://soict.org/wp-content/uploads/2023/05/citations.jpeg",
+            "affiliation": "Yonsei University, South Korea"
+          },
+          {
+            "name": "Thuy Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2023/05/sset-thuy-staff-photo-removebg-preview.jpg",
+            "affiliation": "RMIT University, Vietnam"
+          }
+        ]
+      },
+      {
+        "type": "Software Engineering",
+        "chairs": [
+          {
+            "name": "Dominik Bork",
+            "image": "https://soict.org/wp-content/uploads/2023/06/339161.webp",
+            "affiliation": "TU Wien, Austria"
+          },
+          {
+            "name": "Phuong Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2023/05/344999371_3439604726293129_3228323850003422199_n-3-1.png",
+            "affiliation": "University of L’Aquila, Italy"
+          },
+          {
+            "name": "Triet Huynh Minh Le",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Xnip2023-05-09_23-34-35-removebg-preview.jpg",
+            "affiliation": "The University of Adelaide, Australia"
+          },
+          {
+            "name": "Quan Thanh Tho",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Xnip2023-05-11_09-53-35-1.png",
+            "affiliation": "Hochiminh city Uni of Technology, Vietnam"
+          },
+          {
+            "name": "Vu Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2023/04/profile-circle-cropped.png",
+            "affiliation": "University of Science, VNU-HCMC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Special Session Chairs",
+    "children": [
+      {
+        "type": "Operations Research for Sustainable Urban Development",
+        "chairs": [
+          {
+            "name": "VIET HUNG NGUYEN",
+            "image": "https://soict.org/wp-content/uploads/2023/04/Viet_Hung_NGUYEN.jpg",
+            "affiliation": "Clermont Auvergne University, France"
+          },
+          {
+            "name": "HA MINH HOANG",
+            "image": "https://soict.org/wp-content/uploads/2023/04/img20.png.jpeg",
+            "affiliation": "Phenikaa, Vietnam"
+          },
+          {
+            "name": "Jean-Philippe Gayon",
+            "image": "https://soict.org/wp-content/uploads/2023/04/jpg.jpg",
+            "affiliation": "LIMOS, France"
+          },
+          {
+            "name": "Thanh Hai NGUYEN",
+            "image": "https://soict.org/wp-content/uploads/2023/06/343575329_1389178234988804_8288973227995457874_n-9.jpg",
+            "affiliation": "French Alternative Energies and Atomic Energy Commission (CEA), France"
+          }
+        ]
+      },
+      {
+        "type": "Artificial Intelligence and Data Science for Smart Health and Medicine",
+        "chairs": [
+          {
+            "name": "NIDAL KAMEL",
+            "image": "https://soict.org/wp-content/uploads/2023/04/Nidal-Kamel-341x400-1.jpg",
+            "affiliation": "VinUniversity, Vietnam"
+          },
+          {
+            "name": "PHAM HUY HIEU",
+            "image": "https://soict.org/wp-content/uploads/2023/04/huyhieupham_2_320x350-e1646123750414-1.png",
+            "affiliation": "VinUniversity, Vietnam"
+          },
+          {
+            "name": "NGUYEN PHI LE",
+            "image": "https://soict.org/wp-content/uploads/2023/06/z4398532532614_21d6f2b140a386b778141ea607ae49e9.jpg",
+            "affiliation": "Hanoi University of Science and Technology, Vietnam"
+          }
+        ]
+      },
+      {
+        "type": "Recent Advances in Cyber Security",
+        "chairs": [
+          {
+            "name": "Kok-Seng Wong",
+            "image": "https://soict.org/wp-content/uploads/2023/04/Wong-Kok-Seng-e1605581825473-1024x756-1.png",
+            "affiliation": "VIN University, Vietnam"
+          },
+          {
+            "name": "Gérard Chalhoub",
+            "image": "https://soict.org/wp-content/uploads/2023/04/1517040911043.jpeg",
+            "affiliation": "University of Clermont Auvergne, France"
+          },
+          {
+            "name": "Tran Quang Duc",
+            "image": "https://soict.org/wp-content/uploads/2022/06/Tran-Quang-Duc-1.jpg",
+            "affiliation": "Hanoi University of Science and Technology, Vietnam"
+          }
+        ]
+      },
+      {
+        "type": "Human Computer Interaction and Intelligent Interactive Systems",
+        "chairs": [
+          {
+            "name": "Duc Tien Dang Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-4.png",
+            "affiliation": "University of Bergen, Norway"
+          },
+          {
+            "name": "Liting Zhou",
+            "image": "https://soict.org/wp-content/uploads/2023/06/Picture1.png",
+            "affiliation": "Dublin City University, Ireland"
+          }
+        ]
+      },
+      {
+        "type": "Lifelog Event Retrieval",
+        "chairs": [
+          {
+            "name": "Klaus Schöffmann",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-1-removebg-preview.jpg",
+            "affiliation": "Klagenfurt University, Austria"
+          },
+          {
+            "name": "Trong-Le Do",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-3-removebg-preview.jpg",
+            "affiliation": "University of Science, VNUHCM, Vietnam"
+          },
+          {
+            "name": "Hai-Dang Nguyen",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-5.png",
+            "affiliation": "University of Science, VNUHCM, Vietnam"
+          },
+          {
+            "name": "Tu V. Ninh",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-6.png",
+            "affiliation": "Dublin City University, Ireland"
+          },
+          {
+            "name": "Tu-Khiem Le",
+            "image": "https://soict.org/wp-content/uploads/2023/05/Picture1-7.png",
+            "affiliation": "Dublin City University, Ireland"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Tutorial Chairs",
+    "chairs": [
+      {
+        "name": "NGO DUC THANH",
+        "image": "https://soict.org/wp-content/uploads/2023/04/citations-2-3.jpeg",
+        "affiliation": "University of Information Technology, Vietnam"
+      },
+      {
+        "name": "VO DINH BAY",
+        "image": "https://soict.org/wp-content/uploads/2023/05/vodinhbay-2-removebg-preview-3.jpg",
+        "affiliation": "HUTECH University of Technology, Vietnam"
+      },
+      {
+        "name": "TRAN VAN DANG",
+        "image": "https://soict.org/wp-content/uploads/2023/05/342567154_1407506173338853_5303501005779225992_n-removebg-preview.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "DO CONG THUAN",
+        "image": "https://soict.org/wp-content/uploads/2023/05/Xnip2023-05-05_11-40-49.png",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Than Quang Khoat",
+        "image": "https://soict.org/wp-content/uploads/2023/05/DHP_5171-1024x1536-2-3.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "Organizing Chairs",
+    "chairs": [
+      {
+        "name": "Le Xuan Thanh",
+        "image": "https://soict.org/wp-content/uploads/2022/07/20190516_184321-2.jpeg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Tran Van Man",
+        "image": "https://soict.org/wp-content/uploads/2023/05/344542056_518200933682826_3531980191661571957_n.png",
+        "affiliation": "University of Science, VNU-HCM, Vietnam"
+      },
+      {
+        "name": "Trinh Thanh Trung",
+        "image": "https://soict.org/wp-content/uploads/2023/04/trinh-thanh-trung.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Ngo Dai Nghiep",
+        "image": "https://soict.org/wp-content/uploads/2023/05/342737655_951422969505538_5261706022346514532_n.png",
+        "affiliation": "University of Science, VNU-HCM, Vietnam"
+      },
+      {
+        "name": "Ngo Lam Trung",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5810-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "Publication Chairs",
+    "chairs": [
+      {
+        "name": "NGUYEN VINH TIEP",
+        "image": "https://soict.org/wp-content/uploads/2023/04/338738488_230060153018995_5655776328149312835_n-1.png",
+        "affiliation": "University of Information Technology, VNU-HCM, Vietnam"
+      },
+      {
+        "name": "Dinh Thi Ha Ly",
+        "image": "https://soict.org/wp-content/uploads/2023/05/DinhThiHaLy-3-2-scaled.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Tong Van Van",
+        "image": "https://soict.org/wp-content/uploads/2023/04/Van-Van-TONG-225x300-1-removebg-preview-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Dang Tuan Linh",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5429-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "Nguyen Thi Oanh",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5824-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "Publicity Chairs",
+    "chairs": [
+      {
+        "name": "Tran Hai Anh",
+        "image": "https://soict.org/wp-content/uploads/2021/05/000422-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "HUYNH VIET THAM",
+        "image": "https://soict.org/wp-content/uploads/2023/04/Xnip2023-04-10_16-48-02.png",
+        "affiliation": "University of Science, VNU-HCM (VNUHCM-US), Vietnam"
+      }
+    ]
+  },
+  {
+    "type": "Industrial Session Chairs",
+    "chairs": [
+      {
+        "name": "NGUYEN THANH HUNG",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5593-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "LE TAN HUNG",
+        "image": "https://soict.org/wp-content/uploads/2021/05/LeTanHung-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      },
+      {
+        "name": "LE KHANH DUY",
+        "image": "https://soict.org/wp-content/uploads/2023/04/citations-4-removebg-preview.jpg",
+        "affiliation": "University of Science, VNU Vietnam"
+      },
+      {
+        "name": "DINH VIET SANG",
+        "image": "https://soict.org/wp-content/uploads/2021/05/DHP_5925-400x599-1.jpg",
+        "affiliation": "Hanoi University of Science and Technology, Vietnam"
+      }
+    ]
+  }
+]

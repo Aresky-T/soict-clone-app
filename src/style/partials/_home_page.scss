@@ -1,0 +1,119 @@
+.home-page {
+  padding: 100px 0;
+
+  .home {
+    display: flex;
+
+    .section-title-container {
+      .section-title {
+        text-align: left;
+        width: fit-content;
+
+        span {
+          margin: 0;
+
+          &::after {
+            left: 0;
+            right: unset;
+          }
+        }
+      }
+    }
+
+    &-main {
+      padding-right: 30px;
+
+      .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+
+        &-title {
+          margin-bottom: 24px;
+        }
+
+        .section-title-container {
+          .section-title {
+            span {
+              font-size: 1.6rem;
+              line-height: 1.6;
+            }
+          }
+        }
+
+        &-content {
+          font-size: 1rem;
+          line-height: 1.6;
+          text-align: justify;
+          color: var(--font-color);
+        }
+      }
+
+      .journal {
+        &-title {
+          margin-bottom: 24px;
+        }
+
+        &-content {
+          font-size: 1rem;
+          line-height: 1.6;
+          text-align: justify;
+          color: var(--font-color);
+
+          .journal-images {
+            display: flex;
+            gap: 30px;
+            margin-top: 24px;
+
+            .image-1,
+            .image-2 {
+              width: 230px;
+              height: 230px;
+              overflow: hidden;
+            }
+
+            .image-1 {
+              img {
+                height: 100%;
+                width: auto;
+              }
+            }
+
+            .image-2 {
+              img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: 50% 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .important-information-container {
+      width: 20%;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-page {
+    padding: 100px 0;
+  
+    .home {
+      flex-direction: column;
+  
+      &-main {
+        padding-right: 0;
+        padding-bottom: 50px;
+      }
+  
+      .important-information-container {
+        width: 400px;
+      }
+    }
+  }
+}

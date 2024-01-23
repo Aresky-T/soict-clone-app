@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("./partials/_reset_css.scss");
+
+:root {
+  --font-color: #444444;
+  --primary-color: #007fe8;
+  --second-color: #489bff;
+  --third-color: #0dacf2;
+  --fourth-color: #bf1e2e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #e8e8e8;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+  }
+}
+
+.layout {
+  background-color: #fff;
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  // display: grid;
+  // grid-template-areas: "header" "main" "footer";
+  // grid-template-rows: auto;
+
+  // #main-header {
+  //   grid-area: header;
+  // }
+
+  // #main-body {
+  //   grid-area: main;
+  // }
+
+  // #main-footer {
+  //   grid-area: footer;
+  // }
+}
+
+.section-title-container {
+  width: 100%;
+  padding-bottom: 10px;
+
+  .section-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: default;
+
+    span {
+      margin: 0 15px;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1.5;
+
+      &::after {
+        content: "";
+        width: 60px;
+        height: 6px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #bf1e2e;
+        transition: all 0.3s linear;
+      }
+    }
+  }
+
+  &:hover {
+    .section-title {
+      span::after {
+        width: 150px;
+      }
+    }
+  }
+}
+
+.main-section {
+  padding: 0 15px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.scroll-container {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+  }
+}
+
+@import url("./partials/_main_header.scss");
+@import url("./partials/_main_body.scss");
+@import url("./partials/_main_footer.scss");
+@import url("./partials/_contact_page.scss");
+@import url("./partials/_important_info.scss");
+@import url("./partials/_home_page.scss");
+@import url("./partials/_program_committees.scss");
+@import url("./partials/_organizing_committee.scss");
+@import url("./partials/_sidebar.scss");

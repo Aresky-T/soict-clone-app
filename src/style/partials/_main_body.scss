@@ -1,0 +1,16 @@
+#main-body {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#main-content {
+  width: 1160px;
+}
+
+@media screen and (max-width: 1160px) {
+  #main-content {
+    width: 100%;
+  }
+}
