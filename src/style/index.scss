@@ -46,22 +46,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-  // display: grid;
-  // grid-template-areas: "header" "main" "footer";
-  // grid-template-rows: auto;
-
-  // #main-header {
-  //   grid-area: header;
-  // }
-
-  // #main-body {
-  //   grid-area: main;
-  // }
-
-  // #main-footer {
-  //   grid-area: footer;
-  // }
 }
 
 .section-title-container {
@@ -139,3 +123,11 @@ body {
 @import url("./partials/_program_committees.scss");
 @import url("./partials/_organizing_committee.scss");
 @import url("./partials/_sidebar.scss");
+
+@media screen and (max-width: 450px) {
+  body {
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  }
+}

@@ -21,7 +21,7 @@ const MenuBarItem = ({ name, icon, path, children, hiddenSidebar }) => {
         }}
       >
         <span>{name || ""}</span>
-        <span>{icon || ""}</span>
+        <span className={isActiveSubMenu ? "sidebar-menu-item-arrow up" : "sidebar-menu-item-arrow down"}>{icon || ""}</span>
       </Link>
       {children && (
         <SubSidebarMenu

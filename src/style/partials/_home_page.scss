@@ -117,3 +117,33 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .home-page {
+    padding: 50px 0;
+
+    .home {
+      &-main {
+        .journal {
+          &-content {
+            .journal-images {
+              justify-content: center;
+              gap: 20px;
+  
+              .image-1,
+              .image-2 {
+                width: 150px;
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+
+      .important-information-container {
+        width: 100%;
+        min-width: unset;
+      }
+    }
+  }
+}

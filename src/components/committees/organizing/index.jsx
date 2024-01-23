@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ImportantInformation from "../../important_info";
 import data from "../../../assets/data/organizing_committee.json";
 
@@ -43,10 +43,6 @@ const OrganizingCommittee = () => {
       );
     });
   };
-
-  useEffect(() => {
-    console.log(data);
-  }, []);
 
   return (
     <div className="organizing-committee main-section">

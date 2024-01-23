@@ -145,3 +145,34 @@
     }
   }
 }
+
+@media screen and (max-width: 450px) {
+  .organizing-committee-page {
+    padding-top: 50px;
+
+    .organizing-committee {
+      &-main {
+        .organizing-committee-content {
+          .chairs-container {
+            .chairs {
+              gap: 0;
+
+              .chair {
+                &-avatar {
+                  width: 150px;
+                  height: 150px;
+                  min-height: 100px;
+                  min-width: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .important-information-container {
+        width: 100%;
+      }
+    }
+  }
+}
